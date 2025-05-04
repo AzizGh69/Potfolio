@@ -39,8 +39,9 @@ const Home: React.FC = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Showcasing innovative projects at the intersection of design and technology. 
-              Scroll to explore my work and discover the stories behind each creation.
+               Transforming Ambition into Digital Reality
+               Scalable solutions. Smarter growth. Seamless tech.
+               At Rahma Corporation, we don’t just build IT—we build what’s next.
             </motion.p>
             
             <motion.div

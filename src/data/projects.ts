@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: "IHEC Library",
     shortDescription: "A comprehensive desktop library management system for IHEC institution.",
     fullDescription: "This sophisticated library management system allows librarians and students to efficiently manage and access the institution's vast collection of resources. The system includes features for cataloging, borrowing tracking, search functionality, and detailed analytics about library usage patterns.",
-    technologies: ["Electron", "React", "TypeScript", "SQLite"],
+    technologies: ["C#", "React", "SQL", "AspDotnet"],
     imageUrl: "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg",
     secondaryImages: [
       "https://images.pexels.com/photos/6633920/pexels-photo-6633920.jpeg",

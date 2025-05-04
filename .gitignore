@@ -26,3 +26,60 @@ dist/
 .env
 .DS_Store
 .bolt/
+
+# .NET-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+
+# Windows image file caches
+Thumbs.db
+Thumbs.db:encryptable
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Entity Framework
+*.edmx.diagram
+*.edmx.sql
+
+# Rider
+.idea/
+
+# C# files
+*.csproj
+*.cs
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.vs/
+*.vscode/
+*.dbmdl
+*.jfm
+*.class
+*.cshtml
+*.vbhtml
+*.config
+*.json
+*.xml
+*.resx
+*.resources
+*.settings
