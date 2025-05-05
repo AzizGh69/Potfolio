@@ -6,6 +6,7 @@ import NavBar from '../components/common/NavBar';
 import Footer from '../components/common/Footer';
 import CustomCursor from '../components/common/CustomCursor';
 import { useProjects } from '../context/ProjectsContext';
+import backgroundp1 from '../assets/backgroundp1.png';
 
 const ProjectPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -36,7 +37,7 @@ const ProjectPage: React.FC = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center"
             style={{ 
-              backgroundImage: `url(${project.imageUrl})`,
+              backgroundImage: `url(${backgroundp1})`,
               filter: 'brightness(0.4) blur(2px)'
             }}
           />
